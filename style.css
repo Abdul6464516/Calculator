@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    padding: 20px;
+    column-gap: 40px;
+    border-radius: 10px;
+    display:grid;
+    /* width: 60%; */
+    
+}
+input{
+    width: 100%;
+    height: 53px;
+    border-radius: 10px;
+    /* margin: 3px; */
+    margin-bottom: 10px;
+    background-color: rgb(212, 243, 161);
+    text-align: right;
+    
+}
+button{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(44, 41, 41);
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 6px;
+ 
+}
+button:hover{
+    
+   box-shadow: 20px;
+}
+#c{
+    width: 49%;
+    background-color: red;
+    
+}
+#plusbtn{
+    height: 120px;
+    display: inline;
+    padding: 20px;
+    float: right;
+}
+div #equalbtn{
+    background-color: blue;
+}
+/* .bindrow2{
+    display: inline-block; */
+   /* display: grid;
+   grid-template-columns: repeat(3,1fr) 3fr; */
+   /* grid-gap: 10px; */
+}
