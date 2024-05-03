@@ -15,9 +15,10 @@ main{
     flex-direction: column;
     background-color: black;
     padding: 20px;
-    column-gap: 40px;
+    /* width: 30%; */
+    /* column-gap: 40px; */
     border-radius: 10px;
-    display:grid;
+    /* display:grid; */
     /* width: 60%; */
     
 }
@@ -51,8 +52,8 @@ button:hover{
     background-color: red;
     
 }
-#plusbtn{
-    height: 120px;
+div #plusbtn{
+    height: 128px;
     display: inline;
     padding: 20px;
     float: right;
@@ -60,9 +61,12 @@ button:hover{
 div #equalbtn{
     background-color: blue;
 }
-/* .bindrow2{
+
+.bindrow2{
+    display: inline-bloc;
+}
+/* /* .bindrow2{
     display: inline-block; */
    /* display: grid;
    grid-template-columns: repeat(3,1fr) 3fr; */
    /* grid-gap: 10px; */
-}
